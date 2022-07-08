@@ -12,7 +12,7 @@ public class TestTool
 {
     public int test(boolean value) {
         if (value) {
-            return (new Random()).nextInt(1,10);
+            return 1;
         }
 
         return 0;
