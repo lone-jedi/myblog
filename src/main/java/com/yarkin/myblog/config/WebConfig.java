@@ -24,7 +24,10 @@ public class WebConfig
             {
                 registry
                     .addMapping("/api/v1/**")
-                    .allowedOrigins("https://oyarkin-blog.herokuapp.com");
+                    .allowedOrigins(
+                        "https://oyarkin-blog.herokuapp.com",
+                        "http://localhost:3000"
+                    );
             }
         };
     }
